@@ -8,7 +8,7 @@ from packaging import version
 from ansible import __version__ as ansible_version
 from ansible.errors import AnsibleError
 from ansible.plugins.connection.ssh import Connection as SSHConnection
-from ansible.module_utils._text import to_text
+from ansible.module_utils.common.text.converters import to_text
 from ansible.plugins.loader import get_shell_plugin
 from contextlib import contextmanager
 
